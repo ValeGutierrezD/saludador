@@ -1,21 +1,17 @@
-function saludar(nombre) {
-  return "Hola, " + nombre;
-}
-
 function saludoInicial() {
   return "Bienvenido soy un saludador ";
 }
 
-function saludarSegunHora(fechaActual = new Date()) {
-  const hora = fechaActual.getHours();
-
-  if (hora >= 0 && hora < 12) {
-    return "Buenos días";
-  } else if (hora >= 12 && hora < 19) {
-    return "Buenas tardes";
+function saludar(nombre, edad) {
+  let tratamiento = "";
+  
+  if (edad > 30) {
+    tratamiento = "Sr./Sra. ";
   } else {
-    return "Buenas noches";
+    tratamiento = "Joven ";
   }
+
+  return "Hola, " + tratamiento + nombre;
 }
 
-export {saludar, saludoInicial, saludarSegunHora};
+export {saludar, saludoInicial};

@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9c0841858ce4651969ddec7425b34af4c7559a37",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-02-26T04:16:35.000Z",
       "message": "feat:saludo inicial",
-      "url": "https://github.com/ValeGutierrezD/saludador/commit/HEAD"
+      "url": "https://github.com/ValeGutierrezD/saludador/commit/9c0841858ce4651969ddec7425b34af4c7559a37"
     },
     "stats": {
       "total": 25,
       "additions": 22,
       "deletions": 3,
+      "date": "2026-02-26"
+    },
+    "coverage": 0,
+    "test_count": 2,
+    "failed_tests": 2,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-02-26T04:30:27.000Z",
+      "message": "feat:saludar segun la edad",
+      "url": "https://github.com/ValeGutierrezD/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 16,
+      "deletions": 15,
       "date": "2026-02-26"
     },
     "coverage": 0,
