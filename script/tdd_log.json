@@ -46,9 +46,15 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "15d003d5bf9515da1d022403fc51828b0854bc74",
     "commitName": "feat:brindar contactos de admisiones",
     "commitTimestamp": 1772080904105,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:saludar segun genero",
+    "commitTimestamp": 1772081889221,
+    "testId": 6
   }
 ]

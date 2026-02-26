@@ -95,17 +95,36 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "15d003d5bf9515da1d022403fc51828b0854bc74",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-02-26T04:41:40.000Z",
       "message": "feat:brindar contactos de admisiones",
-      "url": "https://github.com/ValeGutierrezD/saludador/commit/HEAD"
+      "url": "https://github.com/ValeGutierrezD/saludador/commit/15d003d5bf9515da1d022403fc51828b0854bc74"
     },
     "stats": {
       "total": 19,
       "additions": 16,
       "deletions": 3,
+      "date": "2026-02-26"
+    },
+    "coverage": 0,
+    "test_count": 2,
+    "failed_tests": 2,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-02-26T04:58:05.000Z",
+      "message": "feat:saludar segun genero",
+      "url": "https://github.com/ValeGutierrezD/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 30,
+      "deletions": 7,
       "date": "2026-02-26"
     },
     "coverage": 0,

@@ -2,13 +2,26 @@ function saludoInicial() {
   return "Bienvenido soy un saludador ";
 }
 
-function saludar(nombre, edad) {
-  let tratamiento = "";
+function saludar(nombre, edad, genero) {
+  let prefijo = "";
   
   if (edad > 30) {
-    tratamiento = "Sr./Sra. ";
-  } else {
-    tratamiento = "Joven ";
+    if (genero == "masculino") 
+    {
+      prefijo = "Sr. ";
+    } 
+    else {
+      prefijo = "Sra. ";
+    }
+  } 
+  else {  
+      if (genero == "masculino") 
+      {
+        prefijo = "Joven ";
+      } 
+      else {
+        prefijo = "Señorita ";
+      }
   }
 
   const horaActual = new Date().getHours();
@@ -22,7 +35,7 @@ function saludar(nombre, edad) {
     saludoTemporal = "Buenas noches ";
   }
   
-  return saludoTemporal + ", " + tratamiento + nombre;
+  return saludoTemporal + ", " + prefijo + nombre;
 }
 
 function obtenerContactosAdmisiones() {
