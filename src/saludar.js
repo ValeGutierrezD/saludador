@@ -2,7 +2,7 @@ function saludoInicial() {
   return "Bienvenido soy un saludador ";
 }
 
-function saludar(nombre, edad, genero) {
+function saludar(nombre, edad, genero, idioma) {
   let prefijo = "";
   
   if (edad > 30) {

@@ -114,17 +114,36 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "95be793fec9242ecb3b46b3559aedf9a429eed8f",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-02-26T04:58:05.000Z",
       "message": "feat:saludar segun genero",
-      "url": "https://github.com/ValeGutierrezD/saludador/commit/HEAD"
+      "url": "https://github.com/ValeGutierrezD/saludador/commit/95be793fec9242ecb3b46b3559aedf9a429eed8f"
     },
     "stats": {
       "total": 37,
       "additions": 30,
       "deletions": 7,
+      "date": "2026-02-26"
+    },
+    "coverage": 0,
+    "test_count": 2,
+    "failed_tests": 2,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-02-26T05:19:34.000Z",
+      "message": "feat:saludar en español",
+      "url": "https://github.com/ValeGutierrezD/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 9,
+      "deletions": 3,
       "date": "2026-02-26"
     },
     "coverage": 0,

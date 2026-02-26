@@ -52,9 +52,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "95be793fec9242ecb3b46b3559aedf9a429eed8f",
     "commitName": "feat:saludar segun genero",
     "commitTimestamp": 1772081889221,
     "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:saludar en español",
+    "commitTimestamp": 1772083176318,
+    "testId": 7
   }
 ]

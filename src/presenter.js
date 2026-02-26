@@ -14,9 +14,9 @@ form.addEventListener("submit", (event) => {
   const nombre = nombreInput.value;
   const edad = parseInt(edadInput.value)
   const genero = generoInput.value;
-  
+  const idioma = idiomaInput.value;
   const contactosTexto = obtenerContactosAdmisiones();
 
-  div.innerHTML = "<p>" + saludar(nombre, edad, genero) + "</p>";
+  div.innerHTML = "<p>" + saludar(nombre, edad, genero, idioma) + "</p>";
   div.innerHTML += contactosTexto;
 });
