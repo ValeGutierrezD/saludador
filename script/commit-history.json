@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "7524cc1e68682c898bf5ed2af415e4551398f8d3",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-02-26T03:39:06.000Z",
       "message": "feat:saludar con hola",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject-logfiles/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject-logfiles/commit/7524cc1e68682c898bf5ed2af415e4551398f8d3"
     },
     "stats": {
       "total": 99,
       "additions": 67,
       "deletions": 32,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-02-26T03:51:50.000Z",
+      "message": "feat:saludar con hola",
+      "url": "/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-02-26"
     },
     "coverage": 100,
