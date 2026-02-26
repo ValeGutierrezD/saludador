@@ -25,4 +25,15 @@ function saludar(nombre, edad) {
   return saludoTemporal + ", " + tratamiento + nombre;
 }
 
-export {saludar, saludoInicial};
+function obtenerContactosAdmisiones() {
+  return `
+    <h3>Contactos de Admisiones UCB:</h3>
+    <ul>
+      <li><strong>WhatsApp:</strong> +591 70000000</li>
+      <li><strong>Email:</strong> admisiones@ucb.edu.bo</li>
+      <li><strong>Horario:</strong> 08:00 - 18:00</li>
+    </ul>
+  `;
+}
+
+export { saludoInicial, saludar, obtenerContactosAdmisiones };

@@ -1,4 +1,4 @@
-import {saludar, saludoInicial} from "./saludar.js";
+import {saludar, saludoInicial, obtenerContactosAdmisiones} from "./saludar.js";
 
 const nombreInput = document.querySelector("#nombre");
 const edadInput = document.querySelector("#edad");
@@ -12,6 +12,8 @@ form.addEventListener("submit", (event) => {
 
   const nombre = nombreInput.value;
   const edad = parseInt(edadInput.value)
-  
+  const contactosTexto = obtenerContactosAdmisiones();
+
   div.innerHTML = "<p>" + saludar(nombre, edad) + "</p>";
+  div.innerHTML += contactosTexto;
 });
