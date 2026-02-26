@@ -11,7 +11,18 @@ function saludar(nombre, edad) {
     tratamiento = "Joven ";
   }
 
-  return "Hola, " + tratamiento + nombre;
+  const horaActual = new Date().getHours();
+  let saludoTemporal = "";
+
+  if (horaActual >= 6 && horaActual < 12) {
+    saludoTemporal = "Buenos días ";
+  } else if (horaActual >= 12 && horaActual < 19) {
+    saludoTemporal = "Buenas tardes ";
+  } else {
+    saludoTemporal = "Buenas noches ";
+  }
+  
+  return saludoTemporal + ", " + tratamiento + nombre;
 }
 
 export {saludar, saludoInicial};

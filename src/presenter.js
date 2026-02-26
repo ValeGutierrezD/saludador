@@ -12,5 +12,6 @@ form.addEventListener("submit", (event) => {
 
   const nombre = nombreInput.value;
   const edad = parseInt(edadInput.value)
+  
   div.innerHTML = "<p>" + saludar(nombre, edad) + "</p>";
 });
