@@ -1,42 +1,44 @@
-function saludoInicial() {
-  return "Bienvenido soy un saludador ";
+function saludoInicial(idioma) {
+  return (idioma === "en") ? "Welcome, I am a greeter" : "Bienvenido soy un saludador";
 }
 
 function saludar(nombre, edad, genero, idioma) {
   let prefijo = "";
-  
-  if (edad > 30) {
-    if (genero == "masculino") 
-    {
-      prefijo = "Sr. ";
-    } 
-    else {
-      prefijo = "Sra. ";
-    }
-  } 
-  else {  
-      if (genero == "masculino") 
-      {
-        prefijo = "Joven ";
-      } 
-      else {
-        prefijo = "Señorita ";
-      }
-  }
-
-  const horaActual = new Date().getHours();
   let saludoTemporal = "";
+  const horaActual = new Date().getHours();
 
-  if (horaActual >= 6 && horaActual < 12) {
-    saludoTemporal = "Buenos días ";
-  } else if (horaActual >= 12 && horaActual < 19) {
-    saludoTemporal = "Buenas tardes ";
+  if (idioma === "es") {
+    if (edad > 30) 
+    {
+      prefijo = (genero === "masculino") ? "Sr. " : "Sra. ";
+    } 
+    else 
+    {
+      prefijo = (genero === "masculino") ? "Joven " : "Señorita ";
+    }
+
+    if (horaActual >= 6 && horaActual < 12) saludoTemporal = "Buenos días";
+    else if (horaActual >= 12 && horaActual < 19) saludoTemporal = "Buenas tardes";
+    else saludoTemporal = "Buenas noches";
+
   } else {
-    saludoTemporal = "Buenas noches ";
+    if (edad > 30) 
+    {
+      prefijo = (genero === "masculino") ? "Mr. " : "Ms. ";
+    } 
+    else 
+    {
+      prefijo = (genero === "masculino") ? "Young man " : "Young lady ";
+    }
+
+    if (horaActual >= 6 && horaActual < 12) saludoTemporal = "Good morning";
+    else if (horaActual >= 12 && horaActual < 19) saludoTemporal = "Good afternoon";
+    else saludoTemporal = "Good evening";
   }
-  
   return saludoTemporal + ", " + prefijo + nombre;
 }
+
+
 
 function obtenerContactosAdmisiones() {
   return `
