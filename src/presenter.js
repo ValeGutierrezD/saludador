@@ -1,12 +1,15 @@
-import saludar from "./saludar.js";
+import {saludar, saludoInicial} from "./saludar.js";
 
 const nombreInput = document.querySelector("#nombre");
 const form = document.querySelector("#saludar-form");
 const div = document.querySelector("#resultado-div");
 
+div.innerHTML = "<p>" + saludoInicial() + "</p>"
+
 form.addEventListener("submit", (event) => { 
   event.preventDefault();
 
   const nombre = nombreInput.value;
-  div.innerHTML = "<p>" + saludar(nombre) + "</p>";
+  const saludoTemporal = obtenerSaludoSegunHora();
+  div.innerHTML = "<p>" + saludoTemporal + ", " + nombre + "</p>";
 });

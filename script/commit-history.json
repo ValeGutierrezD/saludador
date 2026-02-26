@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6bb3d9ee979edbfaf666fcec98554bd849468848",
     "author": "Valeria Gutierrez",
     "commit": {
       "date": "2026-02-26T03:51:50.000Z",
       "message": "feat:saludar con hola",
-      "url": "/commit/HEAD"
+      "url": "/commit/6bb3d9ee979edbfaf666fcec98554bd849468848"
     },
     "stats": {
       "total": 2,
@@ -36,5 +36,24 @@
     "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Valeria Gutierrez",
+    "commit": {
+      "date": "2026-02-26T04:16:35.000Z",
+      "message": "feat:saludo inicial",
+      "url": "https://github.com/ValeGutierrezD/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 22,
+      "deletions": 3,
+      "date": "2026-02-26"
+    },
+    "coverage": 0,
+    "test_count": 2,
+    "failed_tests": 2,
+    "conclusion": "failure"
   }
 ]
